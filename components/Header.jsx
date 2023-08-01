@@ -31,7 +31,7 @@ export default function Header() {
           to="/about"
           style={({ isActive }) => (isActive ? activeStyles : null)}
         >
-          About
+          Abooout
         </NavLink>
         <NavLink
           to="/vans"
