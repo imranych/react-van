@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import imageUrl from "/assets/images/avatar-icon.png";
+import imageReact from "/assets/images/react.png";
+import imageRouter from "/assets/images/router.png";
 
 export default function Header() {
   const activeStyles = {
@@ -17,8 +19,8 @@ export default function Header() {
     <header>
       <Link className="site-logo" to="/">
         #VanLife <span className="with">with</span>
-        <img className="logo-img-1" src="../assets/images/react.png" />
-        <img className="logo-img-2" src="../assets/images/router.png" />
+        <img className="logo-img-1" src={imageReact} />
+        <img className="logo-img-2" src={imageRouter} />
       </Link>
       <nav>
         <NavLink
